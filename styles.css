@@ -1,0 +1,224 @@
+body{
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    margin-top: 50px;
+}
+.daniel{
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 81%);
+    position: absolute;
+    left: 92px;
+    top: 74px;
+    max-width: 8vw;
+    
+    
+}
+.image{
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 81%);
+    position: relative;
+    max-width: 15%;
+    top: 68px;
+    right: 8px;
+  
+
+}
+.quotes{
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    width: 32%;
+   
+}
+.card-one, .card-two, .card-three, .card-four, .card-five{
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    margin: 20px;
+    border-radius: 2%;
+    padding: 5% 15%;
+    padding-top: 0.1%;
+    font-size: 15px;
+    
+    
+    
+}
+h2{
+    padding: 5% 0%;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.3;
+    position: relative;
+    
+
+}
+h3{
+    padding-left: 50px;
+}
+.caption{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: -50px;
+    line-height: 0.1;
+    opacity: 50%;
+}
+.whitecard{
+    color: hsl(217, 19%, 35%);
+}
+.two{
+    width: 110%;
+}
+
+p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5;
+    /* color: hsl(0, 0%, 81%); */
+    opacity: 70%;
+    
+}
+.card-two{
+    background-color: hsl(217, 19%, 35%)
+}
+.card-three{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+.card-four{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+.card-five{
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+@media only screen and (min-width:600px){
+/* .daniel{
+    margin-left: 5% ;
+} */
+
+}
+@media only screen and (min-width: 1250px){
+   body{
+    margin: 80px;
+    
+   }
+.container{
+    display: grid;
+    grid-template-columns: 200px 300px 300px;
+    grid-template-rows: 700px 500px ;
+    grid-auto-flow: row;
+    gap: 30px
+   
+    
+}
+.quotes{
+    left: 400px;
+    width: 10%;
+    height: auto;
+    top: 100px
+}
+.card-one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 50%;
+    padding-left: 5%;
+    width: 80%;
+    
+}
+h2, p{
+    width: 115%;
+    text-align: left;
+    
+    
+}
+.card-two{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 70%;
+    height: 51.5%;
+   
+   
+}
+.card-three{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 260px;
+    top: 100px;
+    position: relative;
+    top: -320px;
+    height: 73%;
+    
+    
+    
+}
+.card-four{
+    grid-column-start: 3;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    position: relative;
+    left: 125px;
+    top: -320px;
+    width: 420px;
+    height: 73%;
+   
+    
+}
+.four-name, .four-heading, .four, .fourc{
+    position: relative;
+    top: -60px;
+}
+.four{
+    width: 100%;
+}
+
+.card-five{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    width: 70%;
+    height: 110%;
+    padding-left: 15%;
+    margin-left: 10%;
+    position: relative;
+    right: 20px;
+    
+    
+}
+.one{
+    
+}
+.three{
+    width: 100%;
+   
+}
+.five{
+    width: 100%;
+}
+
+.daniel{
+    width: 3vw;
+    position: absolute;
+    top: 120px;
+    
+    left: 120px;
+
+}
+.j{
+   width: 3vw; 
+}
+
+ .pat{
+    width: 3vw;
+    position: relative;
+    top: 10px;
+} 
+ 
+
+
+}
